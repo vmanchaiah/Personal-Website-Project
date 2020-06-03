@@ -1,0 +1,179 @@
+* {box-sizing: border-box; }
+
+header { 
+    background-position: right;
+    background-repeat: no-repeat;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+       height: 75px;
+      
+     }
+
+nav { float: top;
+
+    text-align: center; 
+    font-weight: bold; 
+    padding: 1em; 
+    background-color: #ADD8E6; }
+
+    ul { list-style-type: none; 
+        font-size: 1.2em; 
+        padding: 0;
+        margin: 0; }
+
+    li {
+        display: inline;
+        }
+
+        nav a { text-decoration: none;
+          
+            text-align: center;
+            padding: 1px;
+            border: outset 3px rgb(12, 12, 12);
+            margin-bottom: .5em; 
+            margin: 1em;
+         }  
+
+         nav a:hover {
+            color: rgb(247, 241, 241);
+            border: inset 3px #333333;
+            background-color: rgb(2, 14, 20);
+            transition-timing-function: ease-out;
+            transition: 1s;
+             
+
+            }
+
+#logo { float: left;
+    }
+
+#resume { text-align: center;
+
+}
+
+#resumetwo { text-align: center;
+
+}
+
+#border {border-style: solid;
+    border-color: purple;
+    border-width: 4px 5px 4px 5px;
+
+
+}
+
+#songs {
+    
+    text-decoration: underline;
+}
+
+#songstwo  {
+    
+    text-decoration: underline;
+}
+
+#awards {
+    border-style: solid;
+    border-color: purple;
+    border-width: 4px 5px 4px 5px;
+}
+
+#awardstwo {
+    border-style: solid;
+    border-color: purple;
+    border-width: 4px 5px 4px 5px;
+}
+
+#awardsthree {
+    border-style: solid;
+    border-color: purple;
+    border-width: 4px 5px 4px 5px;
+}
+
+#awardsfour {
+    border-style: solid;
+    border-color: purple;
+    border-width: 4px 5px 4px 5px;
+}
+
+#goldaward {
+    width: 200px;
+    height: 200px;
+}
+
+#goldawardtwo {
+    width: 200px;
+    height: 200px;
+}
+
+#awardsections {
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+#extracurriculars {
+    background-image: url(background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    font-style: inherit;
+    padding: 1em;
+    
+}
+
+h2 {
+    text-decoration-color: #0000A0;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    margin: 2em;
+}
+
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  .job-image {
+      text-align: center;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+footer { background-color: #ADD8E6;
+    font-size:medium; 
+    font-style: italic; 
+    text-align: center; 
+    padding: 1em; }
+
+#coding { background-image: url(httpscoding.jpg);
+    height: 150px;
+    width: 100%;
+
+
+}
+
+ @media only screen and (max-width: 64em) {
+
+    nav {
+        width: auto;
+        margin-bottom: 3em;
+        padding: 2em; }
+    }
